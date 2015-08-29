@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>(Not the Game) Asteroids!</title>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>
+      #map {
+        width: 800px;
+        height: 380px;
+        background-color: #CCC;
+      }
+
+      .info-window {
+        max-width: 200px;
+      }
+
+      #search {
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>(Not) Asteroids!</h1>
+
+      <p>Every meteorite (not asteroid!) heavier than <a href="http://facebook.com/maggiedawg">my dog</a> reported by NASA</a> since the 1500s, long before there was a NASA!</p>
+
+      <p>Data is sourced from data.nasa.gov's <a href="https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh">Meteorite Landing API</a>.</p>
+
+      <ul id="map"></ul>
+
+      <ul id="results"></ul>
+
+      <p>Source code at <a href="https://github.com/chrismetcalf/not-the-game-asteroids">https://github.com/chrismetcalf/not-the-game-asteroids</a>.</p>
+    </div>
+
+    <script src="./js/asteroids.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
